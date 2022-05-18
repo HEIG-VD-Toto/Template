@@ -1,0 +1,18 @@
+Coucou les copains, 
+Petit template sur la base de celui de olivier.
+AUTHORS:
+	Antonin KENZI
+THANKS:
+    Olivier MOREL
+CHANGELOG:
+    Modification de la structure pour une meilleure visibilité
+    Ajout d'une police sans serif
+    Ajout d'un package d'importation de fichier (choix du langage)
+    Ajout du Logo REDS et IAI
+    Modification de la date automatique. 
+NEWS	:
+INSTALL	:
+    configuration de VS-code pour qu'il n'y ai pas de vérification orthographe 
+    paramètre : ltex.latex.environments -> element = pycode , valeur = ignore
+BUGS :
+    Pythontex et siunitix dans les équations 

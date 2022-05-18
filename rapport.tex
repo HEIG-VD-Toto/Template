@@ -1,0 +1,74 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Template for lab reppot
+%% Antonin KEnzi
+%% inspired by
+%% template from reds institute for syslog 
+%% and small repport by Olivier Morel
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc} 
+\usepackage[french]{babel} % Règles typographiques françaises, césures
+% Ne pas toucher, nécessaire à la mise en forme
+\usepackage{graphicx} % Insertion images
+\usepackage{float}  % allow to force the placement of picture with 'H'
+\usepackage[top=3cm, bottom=3cm, left=3cm, right=3cm, showframe=false]{geometry}
+\usepackage{amsmath}
+%\usepackage{hyperref}  % used to produce hyperlink when referencing but those links are marked by big red square on pdf softwares (in theory not when printed)
+\usepackage{pdfpages}   % allow to include multipages pdf in document
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{lastpage}
+\usepackage{datetime}
+% More defined colors
+\usepackage{xcolor}
+%=================Police======================
+%Les police suivante fonctionnent mais n'ont pas obligatoirement une equivalence "math"
+%\usepackage[sfdefault]{inter} %% Option 'sfdefault' sans serif et pas de math mode
+%\usepackage[]{mathpazo}
+
+%\usepackage[math]{kurier} 
+%\usepackage[italic]{mathastext}
+\usepackage[sfdefault,scaled=1]{FiraSans}
+\usepackage{amsmath,amsthm}
+\usepackage[cmintegrals]{newtxsf}
+%=================Package additionnel======================
+% Pythontex------------------------------------------------$
+%Permet d'excuter des script python
+\usepackage{pythontex}
+\input{configuration/fonction_pythontex.tex}
+
+
+% siunitx--------------------------------------------
+%Permet l'affichage des valeurs avec les normes SI
+\usepackage{siunitx}
+\input{configuration/config_siunitix.tex}
+
+% Tikz--------------------------------------------
+%Permet la création de schémas/illustration en code
+\usepackage{tikz}
+\input{configuration/config_tikz.tex}
+
+% circuitikz--------------------------------------------
+%Permet la création de schémas en code (à vérifier l'implentation)
+\usepackage[siunitx]{circuitikz}
+\usetikzlibrary{positioning,calc,patterns,angles,quotes}
+
+% minted--------------------------------------------
+%Permet l'affichage de code dans les documents
+\usepackage{minted}
+%================= Configuration ==========================
+\input{configuration/constantes.tex}
+\input{configuration/config_command_perso.tex}
+% Pied de page---------------------------------------------
+\input{configuration/config_footer_header.tex}
+%chemin des images 
+\graphicspath{{graphics/}} %Setting the graphicspath
+%=================== Script  =============================
+\begin{document}
+\include{chapitre/premiere_page.tex}	
+% enlève le numéro sur la premiere page
+\tableofcontents
+\input{Reference/reference.tex}
+
+\end{document}

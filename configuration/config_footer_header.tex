@@ -1,0 +1,14 @@
+% Entête et pieds de page (A ADAPTER)
+\pagestyle{empty}
+\usepackage{fancyhdr}
+\setlength{\headheight}{27.06pt}
+\pagestyle{fancy}
+% Entête :
+\renewcommand{\headrulewidth}{1pt}
+\fancyhead[L]{Labo \nbrLabo: \titre} 
+\fancyhead[R]{Rapport de laboratoire} 
+% Pied de page
+\fancyfoot{} % clear all footer fields
+\renewcommand{\footrulewidth}{1pt}
+\fancyfoot[R]{Page \thepage / \pageref{LastPage}} 
+\fancyfoot[L]{HEIG-VD | \nomAuteur }

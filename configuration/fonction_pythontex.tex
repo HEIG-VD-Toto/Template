@@ -1,0 +1,8 @@
+%% Configuration pour pythontex
+\setpythontexlistingenv{pylisting}
+\begin{pycode}
+def SI(var, unit):
+    return '\\SI{' + str(var) + '}{' + unit + '}'
+def NUM(var, unit):
+    return '\\num{' + str(var) + '}{' + unit + '}'
+\end{pycode}
