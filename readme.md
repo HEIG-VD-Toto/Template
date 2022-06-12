@@ -1,18 +1,22 @@
-Coucou les copains, 
-Petit template sur la base de celui de olivier.
-AUTHORS:
+# Readme :
+	Coucou les copains, 
+	Petit template sur la base de celui de olivier.
+### AUTHORS:
 	Antonin KENZI
-THANKS:
+### THANKS:
     Olivier MOREL
-CHANGELOG:
-    Modification de la structure pour une meilleure visibilité
-    Ajout d'une police sans serif
-    Ajout d'un package d'importation de fichier (choix du langage)
-    Ajout du Logo REDS et IAI
-    Modification de la date automatique. 
-    Fix Pythontex et siunitix 
-NEWS	:
-INSTALL	:
-    configuration de VS-code pour qu'il n'y ai pas de vérification orthographe 
-    paramètre : ltex.latex.environments -> element = pycode , valeur = ignore
-BUGS :
+### CHANGELOG:
+#### v1 :
+	Modification de la structure pour une meilleure visibilité
+	Ajout d'une police sans serif
+	Ajout d'un package d'importation de fichier (choix du langage)
+	Ajout du Logo REDS et IAI
+	Modification de la date automatique. 
+#### v2 :
+	Fix Pythontex et siunitix 
+	Ajout de Gitkeep pour maintenir la structure
+### NEWS	:
+### INSTALL	:
+	configuration de VS-code pour qu'il n'y ai pas de vérification orthographe 
+	paramètre : ltex.latex.environments -> element = pycode , valeur = ignore
+### BUGS :
