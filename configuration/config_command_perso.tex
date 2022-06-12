@@ -1,5 +1,5 @@
 %caption pour equation : 
 \newcommand{\capequation}[1]{\begin{center} \small #1 \end{center}}
 %commande python à modifer pour que ça fonctionne correctement
-\newcommand{\pySI}[2]{\py{'\\SI{' + str(#1) + '}{#2}'}}
-\newcommand{\pyNUM}[2]{\py{'\\NUM[round-precision = #2]{' + str(#1) + '}'}}
+\newcommand{\pySI}[2]{\pys{\SI{!{#1}}{#2}}}
+\newcommand{\pyNUM}[2]{\pys{\num{!{#1}}}}
