@@ -20,3 +20,10 @@
 	configuration de VS-code pour qu'il n'y ai pas de vérification orthographe 
 	paramètre : ltex.latex.environments -> element = pycode , valeur = ignore
 ### BUGS :
+
+### To Add (otpionnal):
+	Better Comments
+	code runner
+	Draw.io Intergration
+	LTex - LanguageTool 
+	GitHub Pull Requests and Issues
