@@ -27,3 +27,4 @@
 	Draw.io Intergration
 	LTex - LanguageTool 
 	GitHub Pull Requests and Issues
+	Inkscape - and add path to use package SVG 
