@@ -11,7 +11,7 @@
 	Ajout d'une police sans serif
 	Ajout d'un package d'importation de fichier (choix du langage)
 	Ajout du Logo REDS et IAI
-	Modification de la date automatique. 
+	Modification de la date automatique. (Désactivation)
 #### v2 :
 	Fix Pythontex et siunitix 
 	Ajout de Gitkeep pour maintenir la structure
