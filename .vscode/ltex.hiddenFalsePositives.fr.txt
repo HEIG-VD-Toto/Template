@@ -1,0 +1,3 @@
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qconditions[1][avec :] #1 []\\E$"}
+{"rule":"FR_SPELLING_RULE","sentence":"^\\Qinkscapelatex=false\\E$"}
+{"rule":"FR_SPELLING_RULE","sentence":"^\\QReadme :\\E$"}

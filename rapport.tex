@@ -7,7 +7,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \documentclass[11pt]{article}
 \usepackage[T1]{fontenc}
-\usepackage[utf8x]{inputenc} 
+\usepackage[utf8]{inputenc} 
 \usepackage[french]{babel} % Règles typographiques françaises, césures
 % Ne pas toucher, nécessaire à la mise en forme
 \usepackage{graphicx} % Insertion images
@@ -16,6 +16,7 @@
 \usepackage{amsmath}
 %\usepackage{hyperref}  % used to produce hyperlink when referencing but those links are marked by big red square on pdf softwares (in theory not when printed)
 \usepackage{pdfpages}   % allow to include multipages pdf in document
+\usepackage{booktabs}
 \usepackage{multirow}
 \usepackage{multicol}
 \usepackage{lastpage}
@@ -39,6 +40,10 @@
 \input{configuration/fonction_pythontex.tex}
 
 
+% SVG inkScape --------------------------------------------$
+\usepackage{svg}
+\usepackage{booktabs}
+\svgsetup{inkscapelatex=false}
 % siunitx--------------------------------------------
 %Permet l'affichage des valeurs avec les normes SI
 \usepackage{siunitx}
@@ -63,6 +68,8 @@
 % Pied de page---------------------------------------------
 \input{configuration/config_footer_header.tex}
 %chemin des images 
+
+\setlength\parindent{0pt}
 \graphicspath{{graphics/}} %Setting the graphicspath
 %=================== Script  =============================
 \begin{document}

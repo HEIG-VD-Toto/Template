@@ -1,5 +1,10 @@
 %caption pour equation : 
 \newcommand{\capequation}[2]{\begin{center} \small Equation #1 - #2\end{center}}
+
+\newenvironment{conditions}[1][avec :]
+  {#1 \begin{tabular}[t]{>{$}l<{$} @{${}={}$} l}}
+  {\end{tabular}\\[\belowdisplayskip]}
+
 %commande python à modifer pour que ça fonctionne correctement
-\newcommand{\pySI}[2]{\pys{\SI{!{#1}}{#2}}}
+\newcommand{\pyQTY}[2]{\pys{\qty[prefix-mode=extract-exponent]{!{#1}}{#2}}}
 \newcommand{\pyNUM}[2]{\pys{\num{!{#1}}}}

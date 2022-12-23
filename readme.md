@@ -15,16 +15,20 @@
 #### v2 :
 	Fix Pythontex et siunitix 
 	Ajout de Gitkeep pour maintenir la structure
+#### v3 :
+	Fix siunitix 
+	Ajout de SVG
+	Ajout de BookTab 
+	Ajout d'environement paramère "conditions"
+	Ajout de faux positif dans les fichiers Tex principaux
 ### NEWS	:
 ### INSTALL	:
 	configuration de VS-code pour qu'il n'y ai pas de vérification orthographe 
 	paramètre : ltex.latex.environments -> element = pycode , valeur = ignore
 ### BUGS :
 
-### To Add (otpionnal):
+### To Add (otpionnal) :
 	Better Comments
 	code runner
-	Draw.io Intergration
 	LTex - LanguageTool 
 	GitHub Pull Requests and Issues
-	Inkscape - and add path to use package SVG 
