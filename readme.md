@@ -21,6 +21,9 @@
 	Ajout de BookTab 
 	Ajout d'environement paramère "conditions"
 	Ajout de faux positif dans les fichiers Tex principaux
+#### v4 :
+	Structure modifié pour limiter le nombre de dossier
+
 ### NEWS	:
 ### INSTALL	:
 	configuration de VS-code pour qu'il n'y ai pas de vérification orthographe 
