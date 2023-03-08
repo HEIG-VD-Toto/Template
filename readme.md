@@ -23,15 +23,18 @@
 	Ajout de faux positif dans les fichiers Tex principaux
 #### v4 :
 	Structure modifié pour limiter le nombre de dossier
+	
+#### v5 :
+	Police de base remise
 
-### NEWS	:
-### INSTALL	:
+### INSTALL	
+#### Corecteur orthographique :
+
 	configuration de VS-code pour qu'il n'y ai pas de vérification orthographe 
 	paramètre : ltex.latex.environments -> element = pycode , valeur = ignore
+#### SVG :
+	Instaler InkScape : 
+		https://inkscape.org/release/inkscape-1.2.2/windows/64-bit/msi/?redirected=1
 ### BUGS :
 
 ### To Add (otpionnal) :
-	Better Comments
-	code runner
-	LTex - LanguageTool 
-	GitHub Pull Requests and Issues

@@ -7,7 +7,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \documentclass[11pt]{article}
 \usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc} 
 \usepackage[french]{babel} % Règles typographiques françaises, césures
 % Ne pas toucher, nécessaire à la mise en forme
 \usepackage{graphicx} % Insertion images
@@ -30,20 +29,16 @@
 
 %\usepackage[math]{kurier} 
 %\usepackage[italic]{mathastext}
-\usepackage[sfdefault,scaled=1]{FiraSans}
+%\usepackage[sfdefault,scaled=1]{FiraSans}
 \usepackage{amsmath,amsthm}
-\usepackage[cmintegrals]{newtxsf}
 %=================Package additionnel======================
 % Pythontex------------------------------------------------$
 %Permet d'excuter des script python
-\usepackage{pythontex}
-\input{configuration/fonction_pythontex.tex}
-
-
+%\usepackage{pythontex}
+%\input{configuration/fonction_pythontex.tex}
 % SVG inkScape --------------------------------------------$
-\usepackage{svg}
-\usepackage{booktabs}
-\svgsetup{inkscapelatex=false}
+%\usepackage{svg}
+%\svgsetup{inkscapelatex=false}
 % siunitx--------------------------------------------
 %Permet l'affichage des valeurs avec les normes SI
 \usepackage{siunitx}
@@ -51,17 +46,17 @@
 
 % Tikz--------------------------------------------
 %Permet la création de schémas/illustration en code
-\usepackage{tikz}
-\input{configuration/config_tikz.tex}
+%\usepackage{tikz}
+%\input{configuration/config_tikz.tex}
 
 % circuitikz--------------------------------------------
 %Permet la création de schémas en code (à vérifier l'implentation)
-\usepackage[siunitx]{circuitikz}
-\usetikzlibrary{positioning,calc,patterns,angles,quotes}
+%\usepackage[siunitx]{circuitikz}
+%\usetikzlibrary{positioning,calc,patterns,angles,quotes}
 
 % minted--------------------------------------------
 %Permet l'affichage de code dans les documents
-\usepackage{minted}
+%\usepackage{minted}
 %================= Configuration ==========================
 \input{configuration/constantes.tex}
 \input{configuration/config_command_perso.tex}
@@ -73,7 +68,7 @@
 \graphicspath{{graphics/}} %Setting the graphicspath
 %=================== Script  =============================
 \begin{document}
-\include{chapitre/premiere_page.tex}	
+\include{chapitre/premiere_page.tex}
 % enlève le numéro sur la premiere page
 \tableofcontents
 \input{reference/reference.tex}
